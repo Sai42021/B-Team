@@ -23,7 +23,7 @@
     </div>
      <div class=input-box>
        <span class="details"></span>Date completed</span>
-      <input type="text" placeholder="Enter datecompleted"required>
+      <input type="datetime-local" placeholder="Enter datecompleted"required>
     </div>
      <div class=input-box>
        <span class="details"></span>Resource Name</span>
@@ -39,14 +39,23 @@
     </div>
     <div class=input-box>
        <span class="details"></span>Time Spent</span>
-      <input type="text" placeholder="Mins"required>
+      <input type="time" placeholder="Mins"required>
     </div>
     <div class=input-box>
        <span class="details"></span>Describe the Work Done</span>
       <input type="textbox" placeholder="Description of work done"optional>
     </div>
 </div>
- 
+<input type="text" placeholder="Type " id="inputId">
+ <br></br>
+<script>
+   function getInputValue() {  // A method is used to get input value
+     let value = document.getElementById("inputId").value;
+     <!--alert(value);     // Display the value-->
+   }
+ </script>
+<button type="button" onclick="getInputValue();">Enter</button>
+</center>
 
 <div class="button">
     <button type="submit"> Enter</button>
