@@ -12,3 +12,7 @@
 * Used google sheets to store data
 * Created an api for our sheet
 * Created the extension and publised it to azure Dev ops
+
+# Google Sheet 
+* Permissions might be required to view this sheet 
+* Link: https://docs.google.com/spreadsheets/d/1ySNw3w-G1AbCEOmOGkDNvqN5IcZ7fVE1cE_0t-4ObuY
